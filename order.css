@@ -1,0 +1,116 @@
+* {
+	margin: 0;
+}
+
+html {
+	font-family: 'Outfit', sans-serif;
+	background: url(file:///C:/Users/dejan/Downloads/order-summary-component-main/order-summary-component-main/images/pattern-background-desktop.svg);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-color: hsl(225, 100%, 94%);
+	line-height: 1.46rem;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	min-height: 100vh;
+}
+
+.card {
+	background-color: white;
+	margin: 1rem;
+	border-radius: 15px;
+	min-height: 673px;
+	box-shadow: 0.1px 20px 30px hsl(17, 0%, 70%, 1);
+}
+
+.content {
+	text-align: center;
+	height: 100%;
+/*	display: grid;*/
+	padding: 2.5rem;
+}
+
+.dance {
+	border-top-left-radius: 17px;
+	border-top-right-radius: 17px;
+}
+
+h2 {
+	color: hsl(223, 47%, 23%);
+	font-size: 1.8rem;
+}
+
+.you {
+	padding-top: 21px;
+	color: hsl(224, 23%, 55%);
+	font-size: 1.06rem;
+}
+
+.plan {
+	background-color: hsl(225, 100%, 98%);
+	padding: 23px;
+	display: flex;
+	gap: 1rem;
+	border-radius: 17px;
+	margin: 23px 0px;
+}
+
+.combo {
+	display: flex;
+	flex-direction: column;
+	line-height: 24px;
+	font-size: 1.1rem;
+	padding-left: 5px;
+}
+
+.annual {
+	font-weight: 700;
+	color: hsl(223, 47%, 23%);
+}
+
+.price {
+	color: hsl(224, 23%, 55%);
+}
+
+.push {
+	margin-left: auto;
+	padding-top: 11px;
+}
+
+.plan a:hover {
+	text-decoration: none;
+	color: hsl(245, 75%, 62%);
+}
+
+button {
+	background-color: hsl(245, 75%, 52%);
+	color: white;
+	border: none;
+	padding: 1rem 3rem;
+	font-weight: 900;
+	border-radius: 0.7rem;
+	font-size: 0.95rem;
+	box-shadow: 1px 10px 23px hsl(17, 0%, 60%, 1);
+}
+
+button:hover {
+	background-color: hsl(245, 75%, 62%);
+	cursor: pointer;
+}
+
+.cancel {
+	color: hsl(224, 23%, 55%);
+	font-weight: 700;
+	padding-top: 2rem;
+}
+
+.cancel:hover {
+	cursor: pointer;
+	color: hsl(223, 47%, 23%);
+}
+
